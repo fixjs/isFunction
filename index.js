@@ -1,4 +1,4 @@
-(function(global) {
+(function() {
   'use strict';
   var isFunction = function(value) {
     // Avoid a Chakra JIT bug in compatibility modes of IE 11.
@@ -18,8 +18,8 @@
       return isFunction;
     });
   } else {
-    global.isFunction = isFunction;
+    if (typeof Function.isFunction === 'undefined') {
+      Function.isFunction = isFunction;
+    }
   }
-}(function g() {
-  return this;
-}));
+}());

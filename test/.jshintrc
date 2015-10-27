@@ -1,7 +1,7 @@
 {
   "browser": true,
   "node": true,
-  "es5": false,
+  "expr": true,
   "esnext": true,
   "bitwise": false,
   "curly": false,
@@ -11,7 +11,7 @@
   "immed": true,
   "latedef": false,
   "laxcomma": true,
-  "newcap": true,
+  "newcap": false,
   "noarg": true,
   "undef": true,
   "strict": false,
@@ -19,7 +19,12 @@
   "smarttabs": true,
   "white": true,
   "globals": {
-    "define": false,
-    "require": false
+    "require": false,
+    "describe": false,
+    "it": false,
+    "before": false,
+    "beforeEach": false,
+    "after": false,
+    "afterEach": false
   }
 }
