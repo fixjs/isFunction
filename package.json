@@ -1,0 +1,22 @@
+{
+  "name": "isfunction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fixjs/isFunction.git"
+  },
+  "keywords": [
+    "isFunction"
+  ],
+  "author": "Mehran Hatami <mehranhatamie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fixjs/isFunction/issues"
+  },
+  "homepage": "https://github.com/fixjs/isFunction#readme"
+}
