@@ -1,0 +1,25 @@
+{
+  "name": "isfunc",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/fixjs/isFunction",
+  "authors": [
+    "Mehran Hatami <mehranhatamie@gmail.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "isFunction"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
